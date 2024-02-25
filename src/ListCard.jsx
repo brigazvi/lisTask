@@ -1,7 +1,10 @@
-export default function ListCard({ list, setCurrentList }) {
+export default function ListCard({ list, setCurrentList, currentList }) {
   const { title, tasks } = list
   return (
-    <div className="card" onClick={() => setCurrentList(list)}>
+    <div
+      className={`card ${currentList.title === title ? "activeCard" : ""}`}
+      onClick={() => setCurrentList(list)}
+    >
       {title}
     </div>
   )

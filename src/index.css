@@ -51,6 +51,9 @@ body{
   transition: background-color 300ms ease-out;
 }
 
+.activeCard{
+  background-color: white;
+}
 
 .currentList{
   margin-top: 2rem;

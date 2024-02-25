@@ -15,6 +15,7 @@ function App() {
             <ListCard
               key={list.title + "key"}
               list={list}
+              currentList={currentList}
               setCurrentList={setCurrentList}
             />
           )
