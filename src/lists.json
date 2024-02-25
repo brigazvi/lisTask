@@ -1,0 +1,86 @@
+[
+  {
+    "title": "✈️ טיול לאיטליה",
+    "tasks": [
+      {
+        "title": "לוודא שהדרכון מעודכן",
+        "done": false
+      },
+      {
+        "title": "לברר על מסעדות כשרות",
+        "done": false
+      },
+      {
+        "title": "לקנות מעילים מתאימים",
+        "done": false
+      },
+      {
+        "title": "לארוז תיק",
+        "done": false
+      }
+    ]
+  },
+  {
+    "title": "🎂 יום הולדת לסבתא",
+    "tasks": [
+      {
+        "title": "להכין עוגה",
+        "done": false
+      },
+      {
+        "title": "לאסוף כסף למתנה מהאחים",
+        "done": false
+      },
+      {
+        "title": "לכתוב ברכה",
+        "done": false
+      },
+      {
+        "title": "להזכיר ליצחק להביא כוסות חד פעמיים. הוא תמיד שוכח",
+        "done": false
+      }
+    ]
+  },
+  {
+    "title": "✈️ טיול לרומניה",
+    "tasks": [
+      {
+        "title": "לוודא שהדרכון מעודכן",
+        "done": false
+      },
+      {
+        "title": "לברר על מסעדות כשרות",
+        "done": false
+      },
+      {
+        "title": "לקנות מעילים מתאימים",
+        "done": false
+      },
+      {
+        "title": "לארוז תיק",
+        "done": false
+      }
+    ]
+  },
+  {
+    "title": "🎂 יום הולדת לסבא",
+    "tasks": [
+      {
+        "title": "להכין עוגה",
+        "done": false
+      },
+      {
+        "title": "לאסוף כסף למתנה מהאחים",
+        "done": false
+      },
+      {
+        "title": "לכתוב ברכה",
+        "done": false
+      },
+      {
+        "title": "להזכיר ליצחק להביא כוסות חד פעמיים. הוא תמיד שוכח",
+        "done": false
+      }
+    ]
+  }
+]

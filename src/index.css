@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+  font-family: "assistant",system-ui, sans-serif;
+}
+
+body{
+  direction: rtl;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+#root{
+  height: 100%; 
+}
+
+.homePage{
+  height:100%;
+  overflow: scroll;
+  padding:4rem;
+  background:url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center / cover;
+}
+
+.headline{
+  color:white;
+  margin-top: 0;
+  font-size: 4rem;
+  text-shadow: 0 1rem 2rem rgba(0,0,0,0.8);
+}
+
+.cardList{
+  display: flex;
+  gap:1rem;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: white 1px solid;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  padding-inline-end: 1.2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  backdrop-filter: blur(0.3rem);
+  background: rgba(255,255,255,0.6);
+  cursor: pointer;
+  min-width: fit-content;
+}
+
+.card:hover{
+  background-color: rgb(255,255,255,0.8);
+  transition: background-color 300ms ease-out;
+}
+
+
+.currentList{
+  margin-top: 2rem;
+  background-color: white;
+  padding:1rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+}
+
+.currentListTitle{
+  margin: 0;
+}
+
+.tasks{
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  background:rgb(229, 233, 234);
+  padding:0.4rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.task:hover{
+  background:rgb(212, 217, 218);
+  transition: background 200ms ease-out;
+}
+
+.taskCheckbox{
+  background-color: red;
+  cursor: pointer;
+}
+
+.taskLabel{
+  flex-grow: 1;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.done{
+  color:rgb(83, 88, 90);
+  text-decoration: line-through;
+  
+}
